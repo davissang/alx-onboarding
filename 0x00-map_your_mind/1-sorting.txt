@@ -1,0 +1,27 @@
+//Take user input for 3 numbers
+
+number1 = INPUT "Enter first number"
+number2 = INPUT "Enter second number"
+number3 = INPUT "Enter third number"
+
+//Outputing the sorted numbers
+
+IF( number1 < number2)
+	IF( number2<number3) 
+		OUTPUT number1,number2,number3
+	ELSE
+		IF(number3 < number1)
+			OUTPUT number3,number1,number2
+		ELSE
+			OUTPUT number1,number3,number2
+ELSE
+	IF(number1<number3)
+		OUTPUT number2,number1,number3
+	ELSE
+		IF(number3<number2)
+			OUTPUT number3,number2,number1
+		ELSE
+			OUTPUT number2,number3,number1
+
+
+

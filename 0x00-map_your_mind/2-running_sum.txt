@@ -1,0 +1,14 @@
+//Initialize the number and sum to zero
+
+number = 0
+sum1 = 0
+
+// Take user input for the number and give the running sum
+
+WHILE(number > OR = 0)
+	sum1 = sum1 + number
+	number = INPUT "Enter number"
+
+//Outputing the sum
+
+OUTPUT sum1 

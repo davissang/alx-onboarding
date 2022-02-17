@@ -1,0 +1,10 @@
+//Take user input
+
+number1 = INPUT "Enter first number"
+number2 = INPUT "Enter second number"
+
+//Calculate the sum and the output the result
+
+sum = number1 + number2
+OUTPUT sum
+
