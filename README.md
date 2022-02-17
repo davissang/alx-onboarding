@@ -1,3 +1,4 @@
-##alx-onboarding
-*pseudocode exercises
+alx-onboarding
+
+_pseudocode exercises
 
